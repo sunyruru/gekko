@@ -1,0 +1,11 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "max-len": "off"
+  },
+    "extends": "google",
+    "root": true
+}
