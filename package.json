@@ -65,6 +65,7 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
+<<<<<<< HEAD
     "eslint": "^4.19.0",
     "eslint-config-google": "^0.9.1",
     "eslint-config-standard": "^11.0.0",
@@ -73,6 +74,9 @@
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-react": "^7.7.0",
     "eslint-plugin-standard": "^3.0.1",
+=======
+    "eslint-config-google": "^0.9.1",
+>>>>>>> 4bd8822e0a710827d5c6440a25d73ae4fa8b4daa
     "mocha": "^5.0.4",
     "proxyquire": "^1.7.10",
     "request": "^2.83.0",
