@@ -1,33 +1,33 @@
-// 
+//
 // Subscriptions glue plugins to events
 // flowing through the Gekko.
-// 
+//
 
-var subscriptions = [
+let subscriptions = [
   {
     emitter: 'market',
     event: 'candle',
-    handler: 'processCandle'
+    handler: 'processCandle',
   },
   {
     emitter: 'market',
     event: 'history',
-    handler: 'processHistory'
+    handler: 'processHistory',
   },
   {
     emitter: 'tradingAdvisor',
     event: 'advice',
-    handler: 'processAdvice'
+    handler: 'processAdvice',
   },
   {
     emitter: ['trader', 'paperTrader'],
     event: 'trade',
-    handler: 'processTrade'
+    handler: 'processTrade',
   },
   {
     emitter: ['trader', 'paperTrader'],
     event: 'portfolioUpdate',
-    handler: 'processPortfolioUpdate'
+    handler: 'processPortfolioUpdate',
   },
 ];
 
